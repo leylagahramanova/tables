@@ -1,0 +1,179 @@
+.wait {
+  background-color: #FFA500;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.go {
+  background-color: #00C853;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.inquiry-submitted {
+ 
+  color: orange;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.score-total {
+  font-weight: 500;
+  color: white;
+}
+
+.apparatus-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #08091500;
+  color: #fff;
+}
+
+.score-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #6a21f4;
+}
+
+.score-table th {
+  text-align: left;
+  padding: 1rem;
+  color: white;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2.2%;
+}
+
+.rank {
+  background-color: #0A8BEC;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  min-width: 32px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-row {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.row-main {
+  background: #1A1635;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.details {
+  background: #1A1635;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.score-details {
+  margin-bottom: 16px;
+}
+
+.score-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.rank-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rank-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-with-rank {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.flag {
+  width: 20px;
+  height: 14px;
+  margin-right: 6px;
+}
+
+.expand-arrow {
+  color: rgba(255, 255, 255, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.expand-arrow.expanded {
+  transform: rotate(180deg);
+}
+
+.inquiry-details {
+  background: #1A1635;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 1068px) {
+  .score-table {
+    display: none;
+  }
+
+  .table-mobile {
+    display: block;
+  }
+
+  .team-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+} 

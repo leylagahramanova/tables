@@ -4,7 +4,6 @@ import FirstTable from './Components/First/FirstTable';
 import SecondTable from './Components/Second/SecondTable';
 import Home from './Components/Home';
 import PageInProgress from './Components/PageInProgress';
-
 function App() {
   return (
     <Router>

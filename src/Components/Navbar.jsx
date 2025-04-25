@@ -8,35 +8,35 @@ const Navbar = () => {
       <NavLink 
         className="link" 
         to="/live"
-        activeClassName="active"
+        activeclassname="active"
       >
         <FaCircle className='icon' />Live
       </NavLink>
       <NavLink 
         className="link" 
         to="/starlist"
-        activeClassName="active"
+        activeclassname="active"
       >
         Starlist
       </NavLink>
       <NavLink 
         className="link" 
         to="/schedule"
-        activeClassName="active"
+        activeclassname="active"
       >
         Schedule
       </NavLink>
       <NavLink 
         className="link" 
         to="/results"
-        activeClassName="active"
+        activeclassname="active"
       >
         Results
       </NavLink>
       <NavLink 
         className="link" 
         to="/medals"
-        activeClassName="active"
+        activeclassname="active"
       >
         Medals
       </NavLink>
